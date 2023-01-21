@@ -1,0 +1,11 @@
+---
+version: "3.8"
+services:
+  NN_work-in-progress-page:
+    image: p0t4t0sandwich/neuralnexus:work-in-progress-page
+    container_name: NN_work-in-progress-page
+    environment:
+      - TZ=UTC
+    ports:
+      - "0.0.0.0:3000:3000"
+    restart: unless-stopped
