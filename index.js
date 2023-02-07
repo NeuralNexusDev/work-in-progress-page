@@ -27,6 +27,8 @@ app.get("/", async (req, res) => {
                 <a href="https://github.com/NeuralNexusDev/">Our Github</a>
                 <br>
                 <a href="https://api.neuralnexus.dev/api/mcstatus/">Minecraft Server Status API</a>
+                <br>
+                <a href="https://api.neuralnexus.dev/api/game-server-status/">Game Server Status API</a>
             `);
     } catch (err) {
         res.status(500);
